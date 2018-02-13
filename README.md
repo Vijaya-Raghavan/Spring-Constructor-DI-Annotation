@@ -62,10 +62,10 @@ public class EmployeeService {
 **4. Testing**
 
 By loading ApplicationConfig.class which uses annotation based configuration:
-
+```
 ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);
 EmployeeService employeeService = context.getBean(EmployeeService.class);
-
+```
 **5. Conclusion**
 
 This tutorial has showcased the Contractor-Based Dependency Injection and Setter-Based Dependency Injection using Spring framework.
